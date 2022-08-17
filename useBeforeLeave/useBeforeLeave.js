@@ -1,5 +1,5 @@
 export const useBeforeLeave = (onBefore) => {
-  if (onBefore && typeof onBefore != "function") {
+  if (onBefore && typeof onBefore !== "function") {
     return;
   }
   useEffect(() => {
